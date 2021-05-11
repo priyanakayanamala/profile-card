@@ -1,0 +1,117 @@
+
+* {
+    margin: 0;
+    padding: 0;
+
+  }
+  @media screen and (min-width: 375px){
+    body{
+      width: auto;
+      height: auto;
+    }
+    .place{
+      width: auto;
+      height: auto;
+    }
+  }
+  body{
+    background-color: hsl(185, 75%, 39%);
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    background-image: url("/home/cloud/Desktop/html/profile-card-component-main/images/bg-pattern-top.svg"), url("/home/cloud/Desktop/html/profile-card-component-main/images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right calc(55vw - 45.98px) bottom 280px, left calc(54vw - 77.46px) top calc(85vh - 261.32px);
+    overflow-x: hidden;
+    overflow-y: hidden;
+    }
+  
+  @media screen and (max-width: 800px) {
+    body {
+      background-color: grey;
+    }
+    .class{
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: olive;
+    }
+    .class{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    
+  }
+  
+  .place {
+    background-color: white;
+    width: calc(309.44px + 2.8vw);
+    border-radius: 15px;
+    margin: 150px auto;
+  }
+  .place-top {
+    background-image: url("/home/cloud/Desktop/html/profile-card-component-main/images/bg-pattern-card.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
+    height: 140px;
+  }
+  .place-mid {
+    padding: 75px 0 25px;
+  }
+
+  .place-bottom {
+    border-top: 0.5px solid hsl(0, 0%, 90%);
+    padding: 25px 0;
+  }
+
+  .img-victor {
+    border: 5px solid white;
+    border-radius: 50%;
+    position: relative;
+    top: 60%;
+  }
+
+  .victor-name, .stats-number {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%)
+  }
+
+  .victor-age {
+    font-weight: 400;
+    padding-left: 5px;
+  }
+
+  .victor-city {
+    padding-top: 15px;
+    font-size: 0.9rem;
+  }
+
+  .victor-age, .victor-city {
+    color: hsl(227, 10%, 46%);
+  }
+
+  .stats {
+    width: 28%;
+    display: inline-block;
+  }
+
+  .stats-name {
+    font-size: 0.625rem;
+    letter-spacing: 0.1rem;
+    padding-top: 5px;
+    color: hsl(0, 0%, 59%);
+  }
+
+  .attribution {
+    font-size: 11px;
+    text-align: center;
+  }
+
+  .attribution a {
+    color: hsl(226, 24%, 17%);
+  }
